@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\customrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\customrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Migrations\\20250426161815_CustomRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Web\\Migrations\\20250426161815_CustomRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32C6E38-87F1-4189-B8D8-5B846BE94DB0}|Domain\\Domain.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\domain\\customrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32C6E38-87F1-4189-B8D8-5B846BE94DB0}|Domain\\Domain.csproj|solutionrelative:domain\\customrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\pointpricescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\pointpricescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\permission_rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\permission_rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\pensioninsurancetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\pensioninsurancetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\pensioninsurancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\pensioninsurancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\leavescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\leavescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\insurancepoliciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\insurancepoliciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\insuranceitempoliciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\insuranceitempoliciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\insuranceitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\insuranceitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\hourscoefficientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\hourscoefficientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\group_employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\group_employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\employee_positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\employee_positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\employee_pensioninsurancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\employee_pensioninsurancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\employee_insurancepolicycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\employee_insurancepolicycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\department_positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\department_positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|c:\\users\\baze\\source\\repos\\salarycalculationapp\\web\\controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744A356E-3957-4099-BAB0-11569F82DC27}|Web\\Web.csproj|solutionrelative:web\\controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Web\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T16:21:07.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\RolesController.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAiwJEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:19:57.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomRolesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\CustomRolesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\CustomRolesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\CustomRolesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\CustomRolesController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:19:24.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250426161815_CustomRole.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Migrations\\20250426161815_CustomRole.cs",
+              "RelativeDocumentMoniker": "Web\\Migrations\\20250426161815_CustomRole.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Migrations\\20250426161815_CustomRole.cs",
+              "RelativeToolTip": "Web\\Migrations\\20250426161815_CustomRole.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:18:16.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Web\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Web\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwCEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:17:43.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PositionsController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PositionsController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PositionsController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PositionsController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PositionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:16:31.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PointPricesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PointPricesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PointPricesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PointPricesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PointPricesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:16:02.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Permission_RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Permission_RolesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Permission_RolesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Permission_RolesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Permission_RolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:15:27.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PermissionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:14:50.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PensionInsuranceTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PensionInsuranceTypesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PensionInsuranceTypesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PensionInsuranceTypesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PensionInsuranceTypesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:14:14.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomRole.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Domain\\CustomRole.cs",
+              "RelativeDocumentMoniker": "Domain\\CustomRole.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Domain\\CustomRole.cs",
+              "RelativeToolTip": "Domain\\CustomRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:12:17.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PensionInsurancesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PensionInsurancesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PensionInsurancesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\PensionInsurancesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PensionInsurancesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:13:43.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LeaveTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\LeaveTypesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\LeaveTypesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\LeaveTypesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\LeaveTypesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:12:52.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LeavesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\LeavesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\LeavesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\LeavesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\LeavesController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:56:33.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InsurancePoliciesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\InsurancePoliciesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\InsurancePoliciesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\InsurancePoliciesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\InsurancePoliciesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:55:18.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InsuranceItemPoliciesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\InsuranceItemPoliciesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\InsuranceItemPoliciesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\InsuranceItemPoliciesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\InsuranceItemPoliciesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:52:31.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InsuranceItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\InsuranceItemsController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\InsuranceItemsController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\InsuranceItemsController.cs",
+              "RelativeToolTip": "Web\\Controllers\\InsuranceItemsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:51:39.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HoursCoefficientsController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\HoursCoefficientsController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\HoursCoefficientsController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\HoursCoefficientsController.cs",
+              "RelativeToolTip": "Web\\Controllers\\HoursCoefficientsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:49:54.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Group_EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Group_EmployeeController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Group_EmployeeController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Group_EmployeeController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Group_EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:47:53.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "Web\\Controllers\\GroupsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:46:42.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Employee_PositionController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Employee_PositionController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Employee_PositionController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Employee_PositionController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Employee_PositionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:45:35.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Employee_PensionInsuranceController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Employee_PensionInsuranceController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Employee_PensionInsuranceController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Employee_PensionInsuranceController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Employee_PensionInsuranceController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwFMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:44:53.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Employee_InsurancePolicyController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Employee_InsurancePolicyController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Employee_InsurancePolicyController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Employee_InsurancePolicyController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Employee_InsurancePolicyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:44:25.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Department_PositionController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Department_PositionController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Department_PositionController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\Department_PositionController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Department_PositionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:43:51.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Web\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:43:26.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AttendancesController.cs",
+              "DocumentMoniker": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\AttendancesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\AttendancesController.cs",
+              "ToolTip": "C:\\Users\\baze\\source\\repos\\SalaryCalculationApp\\Web\\Controllers\\AttendancesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\AttendancesController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:42:46.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

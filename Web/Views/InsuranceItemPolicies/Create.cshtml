@@ -1,0 +1,36 @@
+﻿@model Domain.InsuranceItemPolicy
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>InsuranceItemPolicy</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="InsuranceItemId" class="control-label"></label>
+                <select asp-for="InsuranceItemId" class ="form-control" asp-items="ViewBag.InsuranceItemId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="InsurancePolicyId" class="control-label"></label>
+                <select asp-for="InsurancePolicyId" class ="form-control" asp-items="ViewBag.InsurancePolicyId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
