@@ -33,7 +33,7 @@ namespace Web.Controllers
                 return NotFound();
             }
 
-            var department = await _context.Departments
+            var department = await _context.Departments.Include(d => d.Employees)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (department == null)
             {
@@ -63,6 +63,7 @@ namespace Web.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(department);
         }
 
@@ -79,6 +80,7 @@ namespace Web.Controllers
             {
                 return NotFound();
             }
+
             return View(department);
         }
 
@@ -112,8 +114,10 @@ namespace Web.Controllers
                         throw;
                     }
                 }
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(department);
         }
 
