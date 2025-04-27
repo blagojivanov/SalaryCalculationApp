@@ -57,17 +57,14 @@ namespace Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name,Description,NumPoints,PointPriceId,Id")] Position position)
+        public async Task<IActionResult> Create([Bind("Name,Description,NumPoints,PointPriceId")] Position position)
         {
-            if (ModelState.IsValid)
-            {
-                position.Id = Guid.NewGuid();
-                _context.Add(position);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["PointPriceId"] = new SelectList(_context.PointPrices, "Id", "Id", position.PointPriceId);
-            return View(position);
+            position.PointPrice = _context.PointPrices.Find(position.PointPriceId);
+            // ModelState.MarkFieldSkipped("PointPrice");
+            position.Id = Guid.NewGuid();
+            _context.Add(position);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Positions/Edit/5
@@ -83,6 +80,7 @@ namespace Web.Controllers
             {
                 return NotFound();
             }
+
             ViewData["PointPriceId"] = new SelectList(_context.PointPrices, "Id", "Id", position.PointPriceId);
             return View(position);
         }
@@ -92,35 +90,32 @@ namespace Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Name,Description,NumPoints,PointPriceId,Id")] Position position)
+        public async Task<IActionResult> Edit(Guid id,
+            [Bind("Name,Description,NumPoints,PointPriceId,Id")] Position position)
         {
             if (id != position.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            try
             {
-                try
-                {
-                    _context.Update(position);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!PositionExists(position.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                _context.Update(position);
+                await _context.SaveChangesAsync();
             }
-            ViewData["PointPriceId"] = new SelectList(_context.PointPrices, "Id", "Id", position.PointPriceId);
-            return View(position);
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!PositionExists(position.Id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Positions/Delete/5

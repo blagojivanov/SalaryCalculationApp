@@ -9,9 +9,9 @@ namespace Domain
     public class Department_Position : BaseEntity
     {
         public Guid DepartmentId { get; set; }
-        //public string EmployeeId {  get; set; }
+        public Guid PositionId { get; set; }
         public Department? Department { get; set; }
-        public Employee? Employee { get; set; }
+        public Position? Position { get; set; }
         public int? PositionCount {  get; set; }
         public int? FreeSpaces { get; set; }
         

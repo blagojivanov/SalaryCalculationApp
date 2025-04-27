@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Domain;
+using Domain.DataTransferObjects;
 using Web.Data;
 
 namespace Web.Controllers
@@ -40,7 +41,20 @@ namespace Web.Controllers
                 return NotFound();
             }
 
-            return View(department);
+            var departmentPositions = _context.PositionsInDepartments.Where(d => d.DepartmentId == id)
+                .Include(d => d.Position).ToList();
+
+            var departmentPositionDTOs = departmentPositions.Select(deptPos => new DepartmentPositionDTO
+                { FreeSlots = deptPos.FreeSpaces, PositionName = deptPos.Position?.Name, }).ToList();
+
+            var departmentDetailsDTO = new DepartmentDetailsDTO
+            {
+                Department = department,
+                Employees = department.Employees,
+                Positions = departmentPositionDTOs
+            };
+
+            return View(departmentDetailsDTO);
         }
 
         // GET: Departments/Create
@@ -150,6 +164,47 @@ namespace Web.Controllers
                 _context.Departments.Remove(department);
             }
 
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> AddPositionToDepartment(Guid id)
+        {
+            var department = await _context.Departments.FindAsync(id);
+            if (department == null)
+            {
+                return NotFound();
+            }
+
+            var dto = new DepartmentPositionDTO
+            {
+                DepartmentId = id,
+                Positions = await _context.Positions.ToListAsync()
+            };
+
+
+            ViewData["PositionId"] = new SelectList(_context.Positions, "Id", "Name");
+            return View(dto);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddPositionToDepartment(Guid id, DepartmentPositionDTO dto)
+        {
+            var department = await _context.Departments.FindAsync(id);
+            var position = await _context.Positions.FindAsync(dto.PositionId);
+            if (department == null || position == null)
+                return NotFound();
+
+            Department_Position dp = new Department_Position()
+            {
+                DepartmentId = department.Id,
+                PositionId = position.Id,
+                Position = position,
+                Department = department,
+                PositionCount = dto.PositionCount,
+                FreeSpaces = dto.PositionCount
+            };
+            _context.PositionsInDepartments.Add(dp);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

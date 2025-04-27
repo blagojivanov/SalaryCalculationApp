@@ -1,4 +1,4 @@
-﻿@model Domain.Department
+﻿@model Domain.DataTransferObjects.DepartmentDetailsDTO
 
 @{
     ViewData["Title"] = "Details";
@@ -11,10 +11,10 @@
     <hr/>
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.Department.Name)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Name)
+            @Html.DisplayFor(model => model.Department.Name)
         </dd>
     </dl>
 </div>
@@ -47,7 +47,33 @@ else
 {
     <p>No employees in this department.</p>
 }
+@if (Model.Positions != null && Model.Positions.Any())
+{
+    <h4>Positions</h4>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Free Slots</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var position in Model.Positions)
+        {
+            <tr>
+                <td>@position.PositionName</td>
+                <td>@position.FreeSlots</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No positions in this department.</p>
+}
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.Department.Id">Edit</a> |
+    <a asp-action="AddPositionToDepartment" asp-route-id="@Model?.Department.Id">Add New Position</a> |
     <a asp-action="Index">Back to List</a>
 </div>

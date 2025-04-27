@@ -52,7 +52,7 @@ namespace Web.Migrations
 
                     b.HasIndex("HoursCoefficientId");
 
-                    b.ToTable("Attendances", (string)null);
+                    b.ToTable("Attendances");
                 });
 
             modelBuilder.Entity("Domain.Department", b =>
@@ -66,7 +66,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Departments", (string)null);
+                    b.ToTable("Departments");
                 });
 
             modelBuilder.Entity("Domain.Department_Position", b =>
@@ -78,22 +78,22 @@ namespace Web.Migrations
                     b.Property<Guid>("DepartmentId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("EmployeeId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<int?>("FreeSpaces")
                         .HasColumnType("int");
 
                     b.Property<int?>("PositionCount")
                         .HasColumnType("int");
 
+                    b.Property<Guid>("PositionId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DepartmentId");
 
-                    b.HasIndex("EmployeeId");
+                    b.HasIndex("PositionId");
 
-                    b.ToTable("PositionsInDepartments", (string)null);
+                    b.ToTable("PositionsInDepartments");
                 });
 
             modelBuilder.Entity("Domain.Employee", b =>
@@ -217,7 +217,7 @@ namespace Web.Migrations
 
                     b.HasIndex("InsurancePolicyId");
 
-                    b.ToTable("EmployeePolicies", (string)null);
+                    b.ToTable("EmployeePolicies");
                 });
 
             modelBuilder.Entity("Domain.Employee_PensionInsurance", b =>
@@ -238,7 +238,7 @@ namespace Web.Migrations
 
                     b.HasIndex("PensionInsuranceId");
 
-                    b.ToTable("EmployeeInsurances", (string)null);
+                    b.ToTable("EmployeeInsurances");
                 });
 
             modelBuilder.Entity("Domain.Employee_Position", b =>
@@ -266,7 +266,7 @@ namespace Web.Migrations
 
                     b.HasIndex("PositionId");
 
-                    b.ToTable("Employee_Positions", (string)null);
+                    b.ToTable("Employee_Positions");
                 });
 
             modelBuilder.Entity("Domain.Group", b =>
@@ -280,7 +280,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Groups", (string)null);
+                    b.ToTable("Groups");
                 });
 
             modelBuilder.Entity("Domain.Group_Employee", b =>
@@ -308,7 +308,7 @@ namespace Web.Migrations
 
                     b.HasIndex("GroupId");
 
-                    b.ToTable("EmployeesInGroups", (string)null);
+                    b.ToTable("EmployeesInGroups");
                 });
 
             modelBuilder.Entity("Domain.HoursCoefficient", b =>
@@ -331,7 +331,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("HoursCoefficients", (string)null);
+                    b.ToTable("HoursCoefficients");
                 });
 
             modelBuilder.Entity("Domain.InsuranceItem", b =>
@@ -348,7 +348,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("InsuranceItems", (string)null);
+                    b.ToTable("InsuranceItems");
                 });
 
             modelBuilder.Entity("Domain.InsuranceItemPolicy", b =>
@@ -369,7 +369,7 @@ namespace Web.Migrations
 
                     b.HasIndex("InsurancePolicyId");
 
-                    b.ToTable("InsuranceItemsInPolicies", (string)null);
+                    b.ToTable("InsuranceItemsInPolicies");
                 });
 
             modelBuilder.Entity("Domain.InsurancePolicy", b =>
@@ -383,7 +383,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("InsurancePolicies", (string)null);
+                    b.ToTable("InsurancePolicies");
                 });
 
             modelBuilder.Entity("Domain.Leave", b =>
@@ -417,7 +417,7 @@ namespace Web.Migrations
 
                     b.HasIndex("LeaveTypeId");
 
-                    b.ToTable("Leave", (string)null);
+                    b.ToTable("Leave");
                 });
 
             modelBuilder.Entity("Domain.LeaveType", b =>
@@ -434,7 +434,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("LeaveType", (string)null);
+                    b.ToTable("LeaveType");
                 });
 
             modelBuilder.Entity("Domain.PensionInsurance", b =>
@@ -450,7 +450,7 @@ namespace Web.Migrations
 
                     b.HasIndex("TypeId");
 
-                    b.ToTable("PensionInsurances", (string)null);
+                    b.ToTable("PensionInsurances");
                 });
 
             modelBuilder.Entity("Domain.PensionInsuranceType", b =>
@@ -467,7 +467,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PensionInsuranceTypes", (string)null);
+                    b.ToTable("PensionInsuranceTypes");
                 });
 
             modelBuilder.Entity("Domain.Permission", b =>
@@ -484,7 +484,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Permissions", (string)null);
+                    b.ToTable("Permissions");
                 });
 
             modelBuilder.Entity("Domain.Permission_Roles", b =>
@@ -493,14 +493,24 @@ namespace Web.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("CustomRoleId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<Guid>("PermissionId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("CustomRoleId");
 
                     b.HasIndex("PermissionId");
 
-                    b.ToTable("PermissionRoles", (string)null);
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("PermissionRoles");
                 });
 
             modelBuilder.Entity("Domain.PointPrice", b =>
@@ -520,7 +530,7 @@ namespace Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PointPrices", (string)null);
+                    b.ToTable("PointPrices");
                 });
 
             modelBuilder.Entity("Domain.Position", b =>
@@ -545,7 +555,7 @@ namespace Web.Migrations
 
                     b.HasIndex("PointPriceId");
 
-                    b.ToTable("Positions", (string)null);
+                    b.ToTable("Positions");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -556,6 +566,11 @@ namespace Web.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
 
                     b.Property<string>("Name")
                         .HasMaxLength(256)
@@ -573,6 +588,10 @@ namespace Web.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasDiscriminator().HasValue("IdentityRole");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -685,6 +704,20 @@ namespace Web.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.CustomRole", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityRole");
+
+                    b.HasDiscriminator().HasValue("CustomRole");
+                });
+
+            modelBuilder.Entity("Domain.Role", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityRole");
+
+                    b.HasDiscriminator().HasValue("Role");
+                });
+
             modelBuilder.Entity("Domain.Attendance", b =>
                 {
                     b.HasOne("Domain.Employee", "Employee")
@@ -710,13 +743,15 @@ namespace Web.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Employee", "Employee")
+                    b.HasOne("Domain.Position", "Position")
                         .WithMany()
-                        .HasForeignKey("EmployeeId");
+                        .HasForeignKey("PositionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Department");
 
-                    b.Navigation("Employee");
+                    b.Navigation("Position");
                 });
 
             modelBuilder.Entity("Domain.Employee", b =>
@@ -849,11 +884,19 @@ namespace Web.Migrations
 
             modelBuilder.Entity("Domain.Permission_Roles", b =>
                 {
+                    b.HasOne("Domain.CustomRole", null)
+                        .WithMany("AppliedPermissions")
+                        .HasForeignKey("CustomRoleId");
+
                     b.HasOne("Domain.Permission", "Permission")
                         .WithMany("RolesApplied")
                         .HasForeignKey("PermissionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("Domain.Role", null)
+                        .WithMany("AppliedPermissions")
+                        .HasForeignKey("RoleId");
 
                     b.Navigation("Permission");
                 });
@@ -975,6 +1018,16 @@ namespace Web.Migrations
             modelBuilder.Entity("Domain.PointPrice", b =>
                 {
                     b.Navigation("Positions");
+                });
+
+            modelBuilder.Entity("Domain.CustomRole", b =>
+                {
+                    b.Navigation("AppliedPermissions");
+                });
+
+            modelBuilder.Entity("Domain.Role", b =>
+                {
+                    b.Navigation("AppliedPermissions");
                 });
 #pragma warning restore 612, 618
         }
